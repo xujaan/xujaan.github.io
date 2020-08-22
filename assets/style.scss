@@ -1,0 +1,81 @@
+$bgpertama:#000000;
+$bgkedua: #111111;
+$textpertama: #ffffff;
+$textkedua: #d3d3d3;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $bgpertama;
+    color: $textpertama;
+}
+
+.kontener {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.kepala {
+    display: flex;
+    justify-content: space-between;
+    // border-bottom: 2px solid $bgkedua;
+}
+
+.badan-pertama {
+    margin-top: 48px;
+    padding-bottom: 48px;
+
+    // border-bottom: 2px solid $bgkedua;
+    .judul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .arab {
+        text-align: right;
+    }
+
+    h1 {
+        margin-bottom: 6px;
+        margin-top: 6px;
+        font-size: 2.7rem;
+        line-height: 50px;
+    }
+}
+
+.badan-kedua {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+    padding-bottom: 48px;
+    // border-bottom: 2px solid $bgkedua;
+
+    .kotak {
+        .isi {
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: 1px solid $textkedua;
+        }
+
+        .judul,
+        p {
+            text-align: center;
+            line-height: 18px;
+        }
+
+        .judul {
+            margin-top: 60px;
+            font-size: 24pt;
+        }
+
+        p {
+            font-size: 15pt;
+            font-weight: 400;
+        }
+    }
+}
