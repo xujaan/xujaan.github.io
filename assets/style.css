@@ -72,7 +72,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #a7a7a7;
 }
 
 .badan-kedua .kotak .judul,
@@ -87,7 +87,8 @@ body {
 }
 
 .badan-kedua .kotak p {
+  color: #a7a7a7;
   font-size: 15pt;
-  font-weight: 400;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
