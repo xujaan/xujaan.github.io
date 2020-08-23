@@ -1,94 +1,251 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+    font-family: 'Bold';
+    src: url("Bold.otf");
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url("Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+    color: #ffffff;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html,
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #000000;
-  color: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 1vh 1vw;
 }
 
-.kontener {
-  position: relative;
-  margin-top: 10px;
-  margin-left: 35px;
-  margin-right: 35px;
+h1 {
+    font-family: 'Bold';
+    font-size: 2.5rem;
+    width: 100%;
+    align-items: center;
 }
 
-.kepala {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+h1.subpage {
+    margin-left: 25%;
+    width: 50%;
 }
 
-.badan-pertama {
-  margin-top: 48px;
-  padding-bottom: 48px;
+h2 {
+    font-family: 'Regular';
+    font-size: 1.5rem;
 }
 
-.badan-pertama .judul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+h2.menu {
+    flex: 1 0 auto;
 }
 
-.badan-pertama .arab {
-  text-align: right;
+h3 {
+    width: 100%;
+    margin: 0.5rem 0 0 0;
+    font-size: 1.9rem;
+    text-align: center;
 }
 
-.badan-pertama h1 {
-  margin-bottom: 6px;
-  margin-top: 6px;
-  font-size: 2.7rem;
-  line-height: 50px;
+h3:hover {
+    text-decoration: underline;
 }
 
-.badan-kedua {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-top: 48px;
-  padding-bottom: 48px;
+h4 {
+    font-family: 'Regular';
+    font-size: 1.5rem;
 }
 
-.badan-kedua .kotak .isi {
-  width: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border: 1px solid #a7a7a7;
+div.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+
 }
 
-.badan-kedua .kotak .judul,
-.badan-kedua .kotak p {
-  text-align: center;
-  line-height: 18px;
+div.jumbo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    /* align-items: flex-end; */
+    margin-bottom: 2rem;
 }
 
-.badan-kedua .kotak .judul {
-  margin-top: 60px;
-  font-size: 24pt;
+div.row a.box {
+    flex: 5 3 25rem;
+    max-width: 500px;
+    margin: 5rem 1.2rem;
+    align-items: center;
 }
 
-.badan-kedua .kotak p {
-  color: #a7a7a7;
-  font-size: 15pt;
-  font-weight: 600;
+
+a.box img {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    align-items: center;
+    border: 1px solid #fafafa
 }
-/*# sourceMappingURL=style.css.map */
+
+
+.fullimg {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+
+div.row.space-around {
+    justify-content: space-around;
+}
+
+.arab {
+    font-size: 2.8rem;
+    text-align: right;
+}
+
+.latin {
+    text-align: left;
+}
+
+div.row.space-between {
+    justify-content: space-between;
+}
+
+div.row.center {
+    justify-content: center;
+}
+
+div.row.regular {
+    font-family: 'Regular';
+}
+
+p {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
+
+.textbox {
+    margin-left: 25%;
+    width: 50%;
+    max-width: 750px;
+
+}
+
+li {
+    font-family: 'Regular';
+    font-size: 1.25em;
+    font-weight: inherit;
+    line-height: 1.5em;
+    color: #dddddd;
+
+}
+
+p {
+    position: relative;
+    font-family: 'Regular';
+    font-size: 1.25em;
+    font-weight: inherit;
+    line-height: 1.75em;
+    color: #dddddd;
+}
+
+p.text {
+    text-align: left;
+    font-family: 'Regular';
+    color: #dddddd;
+
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    padding: 1vw;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 1.75rem;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    h2 {
+        font-family: 'Regular';
+        font-size: 1rem;
+    }
+
+    h2.menu {
+        font-family: 'Regular';
+        font-size: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    p.text {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        max-width: 50em;
+
+    }
+
+    .textbox {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+    }
+
+    h1.subpage {
+
+        font-size: 1.75rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+    }
+
+}
