@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello, i am
 
-### More Information
+## Ahmad Akhus Syuj'an
 
-A place to include any other types of information that you'd like to include about yourself.
+from Lumajang, Jawa Timur, Indonesia.
+I love doing computer things,
+like programming, design, photography, and of course sharing memes :)
+Also i love cooking too :)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+You can dm me on [twitter.com/xujaan](https://twitter.com/xujaan)
+or email me on [jan@mawea.id](mailto:jan@mawea.id)
