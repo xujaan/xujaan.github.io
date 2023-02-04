@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI and Trading
+title: Laws of Success
 ---
 Success can be a subjective and elusive concept, but author Albert-László Barabási explores the science behind it in his book "The Formula: The Universal Laws of Success." The book delves into the study of success across various fields and discovers a set of common patterns, which he calls the "formula for success."
 
