@@ -94,11 +94,12 @@
     color: white;
     /* margin-top: 10px; */
   }
+  .form-search {
+    border-bottom: 1px solid #222;
+  }
 </style>
 
-<form
-  onSubmit="return lunr_search(document.getElementById('lunrsearch').value);"
->
+<form class="form-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" >
   <p>
     <input
       type="text"
