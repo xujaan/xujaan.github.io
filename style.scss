@@ -40,8 +40,8 @@ h6 {
   color: $gray;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  // line-height: 1.7;
+  // margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -122,7 +122,11 @@ b {
 img {
   max-width: 100%;
 }
-
+.reading-time {
+  font-style: italic;
+  color: silver;
+  font-size: medium;
+}
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -256,6 +260,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
+  margin-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
