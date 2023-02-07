@@ -4,16 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Hello, i am
-
-#### Ahmad Akhus Syuj'an
-
-from Lumajang, Jawa Timur, Indonesia.  
-I love doing computer things,  
-like programming, design, photography, and of course sharing memes :)  
-Sometimes i do cooking too :D
+Hi, I'm **_Ahmad Akhus Syuj'an_** | **_اَحْمَدْ اَخُ الشُّجْعَانْ_** | **_Jan_**, from the charming town of Lumajang, Indonesia.  
+By day, I code in binary, by night, I conquer the internet with my meme mastery.  
+My keyboard doubles as a dance floor and I can debug with my eyes closed (not recommended, but impressive nonetheless).  
+When I'm not saving the world from bugs and glitches, you can find me sharing laughter with my online friends or searching for the next viral meme.  
+So, sit back, grab a meme, and let's geek out together.
 
 ### Contact me
 
-You can dm me on [twitter.com/xujaan](https://twitter.com/xujaan)  
-or email me on [jan@mawea.id](mailto:jan@mawea.id)
+You can dm me on [twitter.com/xxxujaan](https://twitter.com/xxxujaan)  
+or email me on [jan@mawea.id](mailto:jan@mawea.id)  
+for meme supply you can add me on facebook [facebook.com/xxxujaan](https://facebook.com/xxxujaan)
