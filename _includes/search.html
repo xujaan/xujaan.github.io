@@ -43,7 +43,7 @@
                   var url = documents[ref]['url'];
                   var title = documents[ref]['title'];
                   var body = documents[ref]['body'].substring(0,160)+'...';
-                  document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
+                  document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span></a></li>";
               }
           } else {
               document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
@@ -60,14 +60,14 @@
     padding-bottom: 1rem;
   }
   .lunrsearchresult .title {
-    color: #d9230f;
+    color: #ffbb3c;
   }
   .lunrsearchresult .url {
-    color: silver;
+    color: #ffff;
   }
   .lunrsearchresult a {
     display: block;
-    color: #777;
+    color: #ffff;
   }
   .lunrsearchresult a:hover,
   .lunrsearchresult a:focus {
@@ -75,6 +75,16 @@
   }
   .lunrsearchresult a:hover .title {
     text-decoration: underline;
+  }
+  .searchblog {
+    width: 100%;
+    background: black;
+    border: solid 1px;
+    border-color: #444;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    /* margin-top: 10px; */
   }
 </style>
 
@@ -84,15 +94,15 @@
   <p>
     <input
       type="text"
-      class="form-control"
+      class="form-control searchblog"
       id="lunrsearch"
       name="q"
       maxlength="255"
       value=""
-      placeholder="Search via Lunr.js"
+      placeholder="Search"
     />
   </p>
 </form>
 <div id="lunrsearchresults">
-  <ul></ul>
+  <ul class="ulnone"></ul>
 </div>
