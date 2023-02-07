@@ -52,8 +52,6 @@
           }
           document.getElementById("lunrsearchresults").setAttribute("style","border-bottom: 1px solid #222;");
           document.getElementById("main").setAttribute("style","display: none;");
-      }else{
-        document.getElementById("main").setAttribute("style","display: inline;");
       }
       return false;
   }
@@ -110,6 +108,7 @@
       maxlength="255"
       value=""
       placeholder="Search"
+      required
     />
   </p>
 </form>
