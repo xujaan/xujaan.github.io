@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reality Distorted: Social Media's Impact on Perception
+'title: Reality Distorted: Social Media's Impact on Perception'
 ---
 
 Social media has become a ubiquitous part of our daily lives, allowing us to connect with friends and family, share our thoughts and experiences, and access a seemingly endless stream of information. However, as we spend more time on social media, it's becoming increasingly clear that it's having a profound impact on the way we perceive the world around us.
