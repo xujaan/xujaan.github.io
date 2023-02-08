@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Artificial Intelligence Ethics: What's the Right Thing to Do?
+title: Artificial Intelligence Ethics&#58; What's the Right Thing to Do?
 ---
 
 Artificial Intelligence (AI) has become an integral part of our daily lives, from virtual assistants to autonomous vehicles. AI systems are designed to make decisions for us, and as AI becomes more advanced, the ethical implications of those decisions become increasingly important.
