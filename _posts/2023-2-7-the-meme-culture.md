@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Meme Culture
+title: The Meme Movement&#58; A Journey Through the Dynamic Culture of Internet Humor
 ---
 
 Memes have been a significant part of internet culture since the early days of the World Wide Web. They are a form of visual and textual content that are spread rapidly and widely through social media platforms and websites. Memes are often created as a form of humor and can take many different forms, including images, videos, GIFs, and hashtags.
