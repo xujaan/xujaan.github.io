@@ -273,10 +273,17 @@ nav {
 
 .bottompagination .navigation {
   display: block;
-  padding: 35px 0 0 0;
+  padding: 10px 0 10px 0;
   text-align: center;
-  color: #999;
-  border-top: 1px solid #ddd;
+  color: #fff;
+  border-top: 1px solid #222;
+}
+.navigation .pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 //
