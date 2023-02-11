@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5 Lesser-Known Psychology Tricks to Influence People&#58; How to Enhance Your Relationships and Persuasion Skills
+title: Master the Art of Influence&#58; 5 Surprising Psychological Tactics
 ---
 
 We all have moments in our lives where we want to influence someone, be it a friend, family member, or even a stranger. Whether it’s to persuade them to our point of view, get them to take a specific action, or simply build a stronger connection, understanding the principles of psychology can help us achieve our goals.
