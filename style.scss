@@ -224,6 +224,16 @@ img {
   }
 }
 
+.site-menu {
+  float: right;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .site-name {
   margin: 0;
   color: $darkGray;

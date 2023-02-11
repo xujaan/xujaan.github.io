@@ -51,14 +51,16 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a style="color: #35a7fa" href="{{ site.baseurl }}/resume"
-              >Resume</a
-            >
-          </nav>
-          <p>{% include social_icon.html %}</p>
+          <div class="site-menu">
+            <nav>
+              <a href="{{ site.baseurl }}/">Blog</a>
+              <a href="{{ site.baseurl }}/about">About</a>
+              <a style="color: #35a7fa" href="{{ site.baseurl }}/resume"
+                >Resume</a
+              >
+            </nav>
+            <p class="site-social">{% include social_icon.html %}</p>
+          </div>
         </header>
         <div class="search-section">{% include search.html %}</div>
       </div>
