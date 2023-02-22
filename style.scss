@@ -252,7 +252,12 @@ img {
   font-size: 28px;
   letter-spacing: 1px;
 }
-
+.site-social {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
@@ -332,6 +337,12 @@ nav {
 
   .comments {
     margin-top: 10px;
+    background: #fff2b4;
+    isolation: isolate;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .read-more {
