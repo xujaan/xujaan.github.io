@@ -44,7 +44,7 @@
                   var title = documents[ref]['title'];
                   var body = documents[ref]['body'];
                   if(title != ''){
-                    document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult posts'><a href='" + url + "'><h2 class='title'>" + title + "</h2><br /><div class='entry post-excerpt'>"+ body +"</div></a></li>";
+                    document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult post'><a href='" + url + "'><h2 class='title'>" + title + "</h2><br /><div class='entry post-excerpt'>"+ body +"</div></a></li>";
                   }
               }
           } else {
