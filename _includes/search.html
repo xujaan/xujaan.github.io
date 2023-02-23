@@ -16,7 +16,7 @@
       "id": {{ counter }},
       "url": "{{ site.url }}{{ page.url }}",
       "title": "{{ page.title }}",
-      "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+      "body": "{{ page.excerpt | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
       }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
 
   var idx = lunr(function () {
@@ -42,9 +42,9 @@
                   var ref = results[i]['ref'];
                   var url = documents[ref]['url'];
                   var title = documents[ref]['title'];
-                  var body = documents[ref]['body'].substring(0,160)+'...';
+                  var body = documents[ref]['body'];
                   if(title != ''){
-                    document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span></a></li>";
+                    document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><h2 class='title'>" + title + "</h2><br /><div class='entry post-excerpt'>"+ body +"</div></a></li>";
                   }
               }
           } else {
