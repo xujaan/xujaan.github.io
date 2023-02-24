@@ -9,6 +9,7 @@
     {% include meta.html %}
 
     <link
+      id="favicon"
       rel="shortcut icon"
       href="{{ site.baseurl }}/images/favicon.ico"
       type="image/x-icon"
@@ -55,7 +56,11 @@
               <a href="{{ site.baseurl }}/">Blog</a>
               <a href="{{ site.baseurl }}/portofolio">Portofolio</a>
               <a href="{{ site.baseurl }}/about">About</a>
-              <a style="color: #ffb834; font-weight: 500" href="{{ site.baseurl }}/resume">Resume</a>
+              <a
+                style="color: #ffb834; font-weight: 500"
+                href="{{ site.baseurl }}/resume"
+                >Resume</a
+              >
             </nav>
           </div>
         </header>
@@ -66,7 +71,6 @@
     <div id="main" role="main" class="container main-content">
       {{ content }}
     </div>
-    {% include analytics.html %}
-    {% include darkmode.html %}
+    {% include analytics.html %} {% include darkmode.html %}
   </body>
 </html>
