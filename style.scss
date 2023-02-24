@@ -243,6 +243,12 @@ img {
   }
 }
 
+.site-menu nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .site-name {
   margin: 0;
   color: $darkGray;
