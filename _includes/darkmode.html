@@ -1,6 +1,13 @@
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
   const darkmode = new Darkmode();
+  function togglefav() {
+    if (darkmode.isActivated() == true) {
+      $("#favicon").attr("href", "{{ site.baseurl }}/images/favicon-blue.ico");
+    } else {
+      $("#favicon").attr("href", "{{ site.baseurl }}/images/favicon.ico");
+    }
+  }
   //   function addDarkmodeWidget() {
   //     new Darkmode().showWidget();
   //   }
