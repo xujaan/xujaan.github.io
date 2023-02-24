@@ -8,6 +8,11 @@
       $("#favicon").attr("href", "{{ site.baseurl }}/images/favicon.ico");
     }
   }
+  if (darkmode.isActivated() == true) {
+    $("#favicon").attr("href", "{{ site.baseurl }}/images/favicon-blue.ico");
+  } else {
+    $("#favicon").attr("href", "{{ site.baseurl }}/images/favicon.ico");
+  }
   //   function addDarkmodeWidget() {
   //     new Darkmode().showWidget();
   //   }
