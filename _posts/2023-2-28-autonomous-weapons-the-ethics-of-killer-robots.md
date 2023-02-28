@@ -3,8 +3,6 @@ layout: post
 title: Autonomous Weapons&#58; The Ethics of Killer Robots
 ---
 
-Introduction
-
 The use of autonomous weapons, also known as "killer robots," has become a hotly debated topic in recent years. Autonomous weapons are weapons that can identify, target, and engage a target without human intervention. These weapons can include drones, tanks, and other types of military hardware that are capable of making decisions without human input. The question of whether or not autonomous weapons should be used in warfare is one that raises serious ethical concerns. In this article, we will examine the ethics of killer robots and explore the arguments for and against their use in armed conflict.
 
 The Advantages of Autonomous Weapons
