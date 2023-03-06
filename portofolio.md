@@ -6,7 +6,7 @@ permalink: /portofolio/
     
 ### Omong-omong Media
 
-![omong-omong.com	](https://xujaan.github.io/images/portofolio/omong-omong.png)
+![omong-omong.com](https://xujaan.github.io/images/portofolio/omong-omong.png)
 [https://omong-omong.com](https://omong-omong.com)
 
 ### Mawea Social Agency
