@@ -31,8 +31,8 @@ The halo effect of attractiveness is an enigmatic force that weaves its thread t
 
 Sources:
 
-Thorndike, E. L. (1920). The Halo Effect: Evidence for Unconscious Alteration of Judgments.
-Dion, K., Berscheid, E., & Walster, E. (1972). What is Beautiful is Good.
-Walster, E., Aronson, V., Abrahams, D., & Rottman, L. (1966). Physical Attractiveness and Dating Choice: A Test of the Matching Hypothesis.
-Toma, C. L., Hancock, J. T., & Ellison, N. B. (2008). Looks and Lies: The Role of Physical Attractiveness in Online Dating Self-Presentation and Deception.
-Hoyt, C. L., & Burnette, J. L. (2011). Beauty, Personality, and Affect as Antecedents of Counterproductive Work Behavior Receipt.
+Thorndike, E. L. (1920). The Halo Effect: Evidence for Unconscious Alteration of Judgments.  
+Dion, K., Berscheid, E., & Walster, E. (1972). What is Beautiful is Good.  
+Walster, E., Aronson, V., Abrahams, D., & Rottman, L. (1966). Physical Attractiveness and Dating Choice: A Test of the Matching Hypothesis.  
+Toma, C. L., Hancock, J. T., & Ellison, N. B. (2008). Looks and Lies: The Role of Physical Attractiveness in Online Dating Self-Presentation and Deception.  
+Hoyt, C. L., & Burnette, J. L. (2011). Beauty, Personality, and Affect as Antecedents of Counterproductive Work Behavior Receipt.  
