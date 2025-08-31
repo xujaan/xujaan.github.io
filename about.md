@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![jan](https://raw.githubusercontent.com/xujaan/xujaan.github.io/master/images/photo-profile-small.png)
 
-Hi, I'm **_Ahmad Akhus Syuj'an_** | _اَحْمَدْ اَخُ الشُّجْعَانْ_ | **_Jan_**.  
+Hi, I'm **_Ahmad Akhus Syuj'an_** | _احمد اخو الشجعان_ | **_Jan_**.  
 From the charming town of Lumajang, Indonesia.  
 By day, I conquer the internet with my meme mastery.  
 By night, I code in binary.  
